@@ -297,6 +297,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 567448146}
     m_Modifications:
+    - target: {fileID: 81273543, guid: d4d9f749649864a229722842ce6be0d3, type: 3}
+      propertyPath: endWaypoint
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1394140047, guid: d4d9f749649864a229722842ce6be0d3, type: 3}
       propertyPath: m_Text
       value: 3,2
@@ -570,6 +574,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec93b3cc9230b4c2894360cec87f67e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startWaypoint: {fileID: 81273545}
+  endWaypoint: {fileID: 1618757758}
 --- !u!114 &967346244 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2046273785959839370, guid: d4d9f749649864a229722842ce6be0d3,
