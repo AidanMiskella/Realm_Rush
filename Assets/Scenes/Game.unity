@@ -937,8 +937,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec93b3cc9230b4c2894360cec87f67e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startWaypoint: {fileID: 2025517674}
-  endWaypoint: {fileID: 35201029}
+  startWaypoint: {fileID: 81273545}
+  endWaypoint: {fileID: 1498075151}
 --- !u!1001 &910701602
 PrefabInstance:
   m_ObjectHideFlags: 0
