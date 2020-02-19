@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Waypoint : MonoBehaviour {
 
-    [SerializeField] Color exploredColor;
-
     public bool isExplored = false;
     public Waypoint exploredFrom;
 
@@ -25,9 +23,8 @@ public class Waypoint : MonoBehaviour {
         );
     }
 
-    public void SetTopColor(Color color) {
+    private void OnMouseOver() {
 
-        MeshRenderer topMeshRenderer = transform.Find("Top").GetComponent<MeshRenderer>();
-        topMeshRenderer.material.color = color;
+        print(gameObject.name);
     }
 }
