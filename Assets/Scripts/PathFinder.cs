@@ -56,14 +56,12 @@ public class PathFinder : MonoBehaviour {
             ExploreNeighbours();
             searchCenter.isExplored = true;
         }
-        print("Finished pathfinding?");
     }
 
     private void StopIfEndFound() {
 
         if (searchCenter == endWaypoint) {
 
-            print("Finished");
             isRunning = false;
         }
     }
