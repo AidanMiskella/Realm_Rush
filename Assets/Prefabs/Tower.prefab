@@ -48,6 +48,7 @@ MonoBehaviour:
   objectToPan: {fileID: 8713192297717159493}
   attackRange: 20
   projectileParticle: {fileID: 8711624672685295725}
+  baseWaypoint: {fileID: 0}
 --- !u!1 &8711624672685295714
 GameObject:
   m_ObjectHideFlags: 0
@@ -270,7 +271,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 0.990566, g: 0.990566, b: 0.990566, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -4702,7 +4703,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ea886b812f148457a8970e06912f3efe, type: 2}
+  - {fileID: 2100000, guid: b5fdbb1d0f5374cd9925eab0238603fa, type: 2}
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
