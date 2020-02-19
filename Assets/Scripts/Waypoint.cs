@@ -6,8 +6,10 @@ public class Waypoint : MonoBehaviour {
 
     public bool isExplored = false;
     public Waypoint exploredFrom;
+    public bool isPlaceable = true;
 
     Vector2Int gridPos;
+
     const int gridSize = 10;
 
     public int GetGridSize() {
@@ -25,6 +27,9 @@ public class Waypoint : MonoBehaviour {
 
     private void OnMouseOver() {
 
-        print(gameObject.name);
+        if (Input.GetMouseButtonDown(0)) {
+
+            print(gameObject.name + isPlaceable);
+        }
     }
 }
