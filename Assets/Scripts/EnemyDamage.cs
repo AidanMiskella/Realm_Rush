@@ -15,7 +15,6 @@ public class EnemyDamage : MonoBehaviour {
 
     private void OnParticleCollision(GameObject other) {
 
-        print("Hit");
         ProcessHit();
         if (hitPoints <= 0) {
 
