@@ -4763,7 +4763,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83639f652cebf49458a54b8bab9c6542, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 3
+  hitPoints: 20
   hitParticlePrefab: {fileID: 198801792457341329}
   deathParticlePrefab: {fileID: 198537984209914932, guid: 1a51bfda454239a41afb7dee687c6ac0,
     type: 3}

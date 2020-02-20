@@ -11607,7 +11607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a6b284efa1e443a8929827c8b8a9973, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  secondsBetweenSpawns: 1
+  secondsBetweenSpawns: 10
   enemyPrefab: {fileID: 114078703179129330, guid: 04f81ff9814844ccfa08226f8d46a3f4,
     type: 3}
   enemyParentTransform: {fileID: 1884638745}
@@ -12728,7 +12728,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5c417fbd4975a419899736f77f1b4cc5, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.05
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -12741,7 +12741,7 @@ AudioSource:
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
-  BypassListenerEffects: 0
+  BypassListenerEffects: 1
   BypassReverbZones: 0
   rolloffCustomCurve:
     serializedVersion: 2
